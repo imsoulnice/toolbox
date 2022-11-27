@@ -1,4 +1,4 @@
-# toolbox
+# Toolbox
 Some useful tools 
 
 ## DD Scripts
@@ -23,4 +23,11 @@ wget --no-check-certificate -O NewReinstall.sh https://git.io/newbetags && chmod
 
 如为CN主机(部分主机商已不能使用)，可能出现报错或不能下载脚本的问题，可执行以下命令开始安装.
 wget --no-check-certificate -O NewReinstall.sh https://cdn.jsdelivr.net/gh/fcurrk/reinstall@master/NewReinstall.sh && chmod a+x NewReinstall.sh && bash NewReinstall.sh
+```
+## Some Tricks
+1. zip文件解压缩中文密码转码
+```
+unzip -P "$(echo -n 中文密码|iconv -f utf-8 -t gbk)"  filename.zip
+或者
+7z x -p"$(echo -n 中文密码|iconv -f utf-8 -t gbk)" filename.zip
 ```
