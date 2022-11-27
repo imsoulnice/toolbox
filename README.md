@@ -2,7 +2,12 @@
 Some useful tools 
 
 ## DD Scripts
-1.https://git.beta.gs/
+1.MoeClub 萌咖InstallNET.sh
+```
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh') -d 10 -v 64 -p "自定义root密码" -port "自定义ssh端口"
+
+```
+2.https://git.beta.gs/
 ```
 安装重装系统的前提组件:
 Debian/Ubuntu:
