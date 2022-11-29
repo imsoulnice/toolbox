@@ -119,3 +119,73 @@ Full Test       | https://browser.geekbench.com/v5/cpu/18943311
 ```
 
 ## GreenCloud
+* 美国丹佛 4C6G2T 8T流量 *
+```
+curl -sL yabs.sh | bash
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+#              Yet-Another-Bench-Script              #
+#                     v2022-11-22                    #
+# https://github.com/masonr/yet-another-bench-script #
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+
+Tue 29 Nov 2022 12:57:38 PM CST
+
+Basic System Information:
+---------------------------------
+Uptime     : 1 days, 15 hours, 32 minutes
+Processor  : Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+CPU cores  : 4 @ 2599.996 MHz
+AES-NI     : ✔ Enabled
+VM-x/AMD-V : ❌ Disabled
+RAM        : 5.8 GiB
+Swap       : 975.0 MiB
+Disk       : 2.0 TiB
+Distro     : Debian GNU/Linux 11 (bullseye)
+Kernel     : 5.10.0-19-amd64
+
+fio Disk Speed Tests (Mixed R/W 50/50):
+---------------------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 9.48 MB/s     (2.3k) | 137.39 MB/s   (2.1k)
+Write      | 9.51 MB/s     (2.3k) | 138.11 MB/s   (2.1k)
+Total      | 18.99 MB/s    (4.7k) | 275.50 MB/s   (4.3k)
+           |                      |
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 440.56 MB/s    (860) | 533.39 MB/s    (520)
+Write      | 463.96 MB/s    (906) | 568.91 MB/s    (555)
+Total      | 904.52 MB/s   (1.7k) | 1.10 GB/s     (1.0k)
+
+iperf3 Network Speed Tests (IPv4):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping
+-----           | -----                     | ----            | ----            | ----
+Clouvider       | London, UK (10G)          | 132 Mbits/sec   | 53.9 Mbits/sec  | 111 ms
+Scaleway        | Paris, FR (10G)           | 238 Mbits/sec   | 120 Mbits/sec   | 117 ms
+NovoServe       | North Holland, NL (40G)   | 485 Mbits/sec   | 607 Mbits/sec   | 122 ms
+Uztelecom       | Tashkent, UZ (10G)        | 313 Mbits/sec   | 122 Mbits/sec   | 232 ms
+Clouvider       | NYC, NY, US (10G)         | 615 Mbits/sec   | 278 Mbits/sec   | 36.6 ms
+Clouvider       | Dallas, TX, US (10G)      | 790 Mbits/sec   | 264 Mbits/sec   | 19.3 ms
+Clouvider       | Los Angeles, CA, US (10G) | 751 Mbits/sec   | 244 Mbits/sec   | 38.9 ms
+
+iperf3 Network Speed Tests (IPv6):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping
+-----           | -----                     | ----            | ----            | ----
+Clouvider       | London, UK (10G)          | 674 Mbits/sec   | 75.9 Mbits/sec  | 111 ms
+Scaleway        | Paris, FR (10G)           | 538 Mbits/sec   | 80.2 Mbits/sec  | 115 ms
+NovoServe       | North Holland, NL (40G)   | 523 Mbits/sec   | 583 Mbits/sec   | 122 ms
+Uztelecom       | Tashkent, UZ (10G)        | 488 Mbits/sec   | 81.5 Mbits/sec  | 232 ms
+Clouvider       | NYC, NY, US (10G)         | 808 Mbits/sec   | busy            | 36.6 ms
+Clouvider       | Dallas, TX, US (10G)      | 783 Mbits/sec   | 473 Mbits/sec   | 19.3 ms
+Clouvider       | Los Angeles, CA, US (10G) | 740 Mbits/sec   | 229 Mbits/sec   | 31.4 ms
+
+Geekbench 5 Benchmark Test:
+---------------------------------
+Test            | Value
+                |
+Single Core     | 671
+Multi Core      | 2337
+Full Test       | https://browser.geekbench.com/v5/cpu/18953840
+```
