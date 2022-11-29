@@ -119,7 +119,7 @@ Full Test       | https://browser.geekbench.com/v5/cpu/18943311
 ```
 
 ## GreenCloud
-**美国丹佛 4C6G2T 8T流量**
+**美国丹佛 4C6G2T 8T@1Gbps
 ```
 curl -sL yabs.sh | bash
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
