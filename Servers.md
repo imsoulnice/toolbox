@@ -2,7 +2,7 @@
 ## Hosthatch
 荷兰阿姆斯特丹 1C2G2T 20T@10Gbps
 ```
-1.wget -qO- bench.sh | bash
+* 1.wget -qO- bench.sh | bash *
 -------------------- A Bench.sh Script By Teddysun -------------------
  Version            : v2022-06-01
  Usage              : wget -qO- bench.sh | bash
@@ -48,7 +48,7 @@
  Timestamp          : 2022-11-28 16:38:25 UTC
 ----------------------------------------------------------------------
 
-2.curl -sL yabs.sh | bash
+* 2.curl -sL yabs.sh | bash *
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 #              Yet-Another-Bench-Script              #
 #                     v2022-11-22                    #
