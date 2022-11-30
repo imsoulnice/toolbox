@@ -1,6 +1,13 @@
 # Toolbox
 **Some useful tools**
 
+## SpeedTest
+**1.SuperSpeed 全面测速修复版. By UXH & ernisn & oooldking**
+<https://www.infski.com/speedtest>
+```
+bash <(curl -Lso- https://www.infski.com/files/superspeed.sh)
+```
+
 ## DD Scripts
 1.MoeClub 萌咖InstallNET.sh
 ```
