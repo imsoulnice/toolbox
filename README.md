@@ -2,10 +2,14 @@
 **Some useful tools**
 
 ## SpeedTest
-**1.SuperSpeed 全面测速修复版. By UXH & ernisn & oooldking**
+**三网测速1.SuperSpeed 全面测速修复版. By UXH & ernisn & oooldking**
 <https://www.infski.com/speedtest>
 ```
 bash <(curl -Lso- https://www.infski.com/files/superspeed.sh)
+```
+**三网测速2** 
+```
+bash <(wget -qO- https://bench.im/hyperspeed)
 ```
 
 ## DD Scripts
