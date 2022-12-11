@@ -1,3 +1,65 @@
+# 性能机
+## 1. Hosthatch 香港
+2C5G30G 2T@10Gbps
+```
+curl -sL yabs.sh | bash
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+#              Yet-Another-Bench-Script              #
+#                     v2022-12-04                    #
+# https://github.com/masonr/yet-another-bench-script #
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+
+Sun Dec 11 10:15:38 CST 2022
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+
+Basic System Information:
+---------------------------------
+Uptime     : 0 days, 0 hours, 25 minutes
+Processor  : AMD EPYC 7443P 24-Core Processor
+CPU cores  : 2 @ 2844.654 MHz
+AES-NI     : ✔ Enabled
+VM-x/AMD-V : ✔ Enabled
+RAM        : 4.8 GiB
+Swap       : 975.0 MiB
+Disk       : 26.4 GiB
+Distro     : Debian GNU/Linux 11 (bullseye)
+Kernel     : 5.10.0-18-amd64
+
+fio Disk Speed Tests (Mixed R/W 50/50):
+---------------------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 324.66 MB/s  (81.1k) | 3.85 GB/s    (60.1k)
+Write      | 325.51 MB/s  (81.3k) | 3.87 GB/s    (60.5k)
+Total      | 650.17 MB/s (162.5k) | 7.72 GB/s   (120.6k)
+           |                      |                     
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 5.36 GB/s    (10.4k) | 5.70 GB/s     (5.5k)
+Write      | 5.64 GB/s    (11.0k) | 6.08 GB/s     (5.9k)
+Total      | 11.00 GB/s   (21.5k) | 11.78 GB/s   (11.5k)
+
+iperf3 Network Speed Tests (IPv4):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping           
+-----           | -----                     | ----            | ----            | ----           
+Clouvider       | London, UK (10G)          | 867 Mbits/sec   | 902 Mbits/sec   | 191 ms         
+Scaleway        | Paris, FR (10G)           | 1.00 Gbits/sec  | 903 Mbits/sec   | 190 ms         
+NovoServe       | North Holland, NL (40G)   | 900 Mbits/sec   | 928 Mbits/sec   | 185 ms         
+Uztelecom       | Tashkent, UZ (10G)        | 1.68 Gbits/sec  | 1.50 Gbits/sec  | 120 ms         
+Clouvider       | NYC, NY, US (10G)         | 449 Mbits/sec   | 520 Mbits/sec   | 231 ms         
+Clouvider       | Dallas, TX, US (10G)      | 667 Mbits/sec   | 722 Mbits/sec   | 234 ms         
+Clouvider       | Los Angeles, CA, US (10G) | 1.15 Gbits/sec  | 733 Mbits/sec   | 150 ms         
+
+Geekbench 5 Benchmark Test:
+---------------------------------
+Test            | Value                         
+                |                               
+Single Core     | 1434                          
+Multi Core      | 2814                          
+Full Test       | https://browser.geekbench.com/v5/cpu/19221858
+```
+
 # 大盘机
 ## Hosthatch
 荷兰阿姆斯特丹 1C2G2T 20T@10Gbps
