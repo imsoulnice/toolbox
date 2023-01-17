@@ -1,6 +1,16 @@
 # Toolbox
 **Some useful tools**
 
+# 回程路由
+- [backtrace](https://github.com/zhanghanyun/backtrace)
+```
+curl https://raw.githubusercontent.com/zhanghanyun/backtrace/main/install.sh -sSf | sh
+```
+- besttrace
+```
+wget -qO- git.io/besttrace | bash
+```
+
 ## SpeedTest
 **三网测速1.SuperSpeed 全面测速修复版. By UXH & ernisn & oooldking**
 <https://www.infski.com/speedtest>
