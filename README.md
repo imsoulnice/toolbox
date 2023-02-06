@@ -12,12 +12,18 @@ wget -qO- git.io/besttrace | bash
 ```
 
 ## SpeedTest
-**三网测速1.SuperSpeed 全面测速修复版. By UXH & ernisn & oooldking**
+**三网测速1**
+Github:<https://github.com/veoco/bim-core/>
+```
+bash <(curl -Lso- https://raw.githubusercontent.com/veoco/bim-core/main/hyperspeed.sh)
+```
+
+**三网测速2.SuperSpeed 全面测速修复版. By UXH & ernisn & oooldking**
 <https://www.infski.com/speedtest>
 ```
 bash <(curl -Lso- https://www.infski.com/files/superspeed.sh)
 ```
-**三网测速2** 
+**三网测速3** 
 ```
 bash <(wget -qO- https://bench.im/hyperspeed)
 ```
