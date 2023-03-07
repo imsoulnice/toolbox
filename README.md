@@ -2,6 +2,12 @@
 **Some useful tools**
 
 # 回程路由
+
+- [SpiritHLS](https://github.com/spiritLHLS/)
+```
+bash <(wget -qO- --no-check-certificate https://gitlab.com/spiritysdx/za/-/raw/main/route.sh)
+```
+
 - [backtrace](https://github.com/zhanghanyun/backtrace)
 ```
 curl https://raw.githubusercontent.com/zhanghanyun/backtrace/main/install.sh -sSf | sh
